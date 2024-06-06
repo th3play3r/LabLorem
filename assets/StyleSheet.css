@@ -1,0 +1,506 @@
+.story {
+    margin: 0;
+    font-size: 135px;
+    letter-spacing: 50px;
+    color: #e9ebec;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+}
+
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    width: max-content;
+    height: max-content;
+}
+
+body {
+    background-color: rgb(2, 37, 47); 
+    margin-left: 30px;
+}
+
+.header, .main {
+    padding-left: 140px; 
+}
+
+.header { 
+    height: 200px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.top-bar {
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    top: 35px;
+    left: 50%;
+    -webkit-box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74); 
+    -moz-box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74);
+    box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74);
+    width: 200px;
+    height: 88px; 
+    background-color: #80b7b3; 
+    text-align: center; 
+}
+
+.marcy {
+    padding: 15px; margin: 0; 
+    font-size: 50px; 
+    color: white;
+}
+
+.title {
+    font-size: 36px;
+    font-family: "PlayfairDisplay";
+    color: rgb(39, 61, 70);
+    line-height: 1.389;
+    text-align: left;
+    left: 148.938px;
+    top: 390px;
+    width: 500px;
+    height: 100px;
+    z-index: 166;
+}
+
+.text {
+    font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb(39, 61, 70);
+    line-height: 1.667;
+    text-align: left;
+    left: 148.937px;
+    top: 545.984px;
+    width: 500px;
+    height: 340px;
+    z-index: 165;
+}
+.nav-menu {
+    text-align: center; 
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.menu li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+.menu li:last-child {
+    margin-right: 0; 
+}
+
+.link {
+    font-size: 18px; 
+    color: #333; 
+    text-decoration: none; 
+}
+
+.link:hover {
+    color: #666; 
+    text-decoration: underline; 
+}
+
+.maim-content{
+    margin-top: 100px;
+}
+
+.linked {
+   
+        border-radius: 22px;
+        background-color: rgb(128, 183, 179);
+        box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+        position: absolute;
+        left: 142px;
+        top: 1000px;
+        width: 199px;
+        height: 44px;
+        z-index: 161;     
+}
+
+.full-story {
+        font-size: 14px;
+        font-family: "Poppins";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 2.857;
+        position: absolute;
+        left: 53.937px;
+        top: 1px;
+        z-index: 162;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+}
+
+.image {
+    position: absolute; /* Встановіть абсолютне позиціонування */
+    top: 400px; /* Відстань від верхнього краю */
+    left: 1000px; /* Відстань від лівого краю */
+    size: 10;
+    border: 10px solid rgb(128, 183, 179);
+}
+
+.image2 {
+    position: absolute; /* Встановіть абсолютне позиціонування */
+    top: 450px; /* Відстань від верхнього краю */
+    left: 800px; /* Відстань від лівого краю */
+    height: 300px;
+    width: 450px;
+    border: 10px solid rgb(128, 183, 179);
+}
+
+
+    
+html, body { 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background-color: whitesmoke; 
+    padding-top: 40px; /* Відступи зверху вдвічі більше */
+}
+
+.header, .main-content {
+    padding-left: 40px; /* Відступи зліва вдвічі більше */
+    padding-right: 40px; /* Відступи справа вдвічі більше */
+}
+
+.container {
+    max-width: 1200px; /* Максимальна ширина контейнера */
+    margin: 0 auto; /* Центруємо контейнер на сторінці */
+}
+
+.main-content {
+    margin-top: 40px; /* Відступи зверху для головного контенту вдвічі більше */
+}
+
+.image-block {
+    margin-left: 40px; /* Відступи зліва для блоку зображення вдвічі більше */
+    margin-top: 40px; /* Відступи зверху для блоку зображення вдвічі більше */
+}
+
+.text2, .title2 {
+    font-family: "PlayfairDisplay";
+    color: rgb(39, 61, 70);
+    text-align: center;
+    width: 1850px;
+    z-index: 165;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text2 {
+    font-size: 22px;
+    line-height: 1.667;
+    height: 630px;
+    top: 100.984px;
+}
+
+.title2 {
+    font-size: 36px;
+    line-height: 1.389;
+    height: 115px;
+    top: 380px;
+}
+.imagec {
+    position: absolute; /* Встановіть абсолютне позиціонування */
+    top: 1430px; /* Відстань від верхнього краю */
+    left: 570px; /* Відстань від лівого краю */
+    width: 850px; /* Ширина зображення */
+    height: 500px; /* Висота зображення */
+    border: 2px solid black; /* Рамка */
+    border-radius: 10px; /* Закругленість країв */
+}
+
+.row.iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px; /* Простір між рядком та іншими вмістом */
+}
+
+.row.iframe iframe {
+    border: 2px solid black; /* Рамка навколо iframe */
+    border-radius: 10px; /* Закругленість країв */
+}
+
+.row.iframe {
+    order: -1; /* Змінюємо порядок відображення, переміщаючи відео вище */
+}
+
+.imageq {
+    position: absolute; /* Встановіть абсолютне позиціонування */
+    top: 3510px; /* Відстань від верхнього краю */
+    left: 400px; /* Відстань від лівого краю */
+    width: 300px; /* Ширина зображення */
+    height: 400px; /* Висота зображення */
+    border: 2px solid rgb(187, 235, 241); /* Рамка */
+    border-radius: 5px; /* Закругленість країв */
+}
+
+.text3 {
+    font-family: "PlayfairDisplay";
+    font-size: 16px;
+    line-height: 1.667;
+    height: 100px;
+    top: 100.984px;
+    left: 750px;
+    position:absolute;
+    top: 3510px;
+}
+
+.square {
+    width: 440px; /* Задаємо ширину */
+    height: 200px; /* Задаємо висоту */
+    background-color: #35e1ff4d; /* Задаємо колір фону */
+    top: 3650px;
+    left: 740px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  
+
+  .nav-menu {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 9999;
+   }
+
+   #burger {
+    position: relative;
+    width: 31px;
+    height: 25px;
+   }
+
+   #burger span {
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #939ea2;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -o-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+   }
+
+   #burger span:first-child {
+    top: 0;
+    bottom: auto;
+   }
+
+   #burger span:last-child {
+    bottom: 0;
+    top: auto;
+   }
+
+   .nav-menu.active #burger span {
+    top: 0;
+    bottom: 0;
+    -moz-transform: rotate(45deg); /* Для Firefox */
+    -ms-transform: rotate(45deg); /* Для IE */
+    -webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(45deg); /* Для Opera */
+    transform: rotate(45deg);
+   }
+
+   .nav-menu.active #burger span:last-child {
+    -moz-transform: rotate(-45deg); /* Для Firefox */
+    -ms-transform: rotate(-45deg); /* Для IE */
+    -webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-45deg); /* Для Opera */
+    transform: rotate(-45deg);
+   }
+
+   .menu {
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    background-color: #fff;
+    position: relative;
+    left: -100%;
+   }
+
+   .menu a {
+    color: rgb(39, 61, 70);
+    text-decoration: none;
+   }
+
+   .nav-menu.active .menu {
+    left: 0;
+   }
+
+.f_text {
+    position: absolute;
+    left: 760px;
+    top: 3660px;
+    height: 100px;
+    width: 400px;
+    font-size: 18px;
+}
+
+.author {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 100px;
+    width: 400px;
+    font-size: 13px;
+}
+
+.more {
+    font-size: 14px;
+        font-family: "Poppins";
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        line-height: 2.857;
+        position: absolute;
+        left: 149px;
+        top: 160px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+}
+
+.button {
+    width: 150px; /* Задаємо ширину */
+    height: 50px; /* Задаємо висоту */
+    background-color: #2049ff3f; /* Задаємо колір фону */
+    top: 3813px;
+    left: 878px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.inf {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    background-color: #002f2d66;    
+    top: 530px;
+}
+.inf-text {
+    position: absolute;
+    left: 1580px;
+    top: 90%;
+    font-size: 24px;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.flex-test {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.sub_block.new_dex {
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/last.png);
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .sub_block.new_dex .form_sub {
+    background-color: rgba(39, 61, 70, 0.902);
+    width: 670px;
+    top: 40px;
+    position: relative;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+   }
+   .sub_block.new_dex .form_sub .title {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.875;
+   }
+   .sub_block.new_dex .form_sub .inputs {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .sub_block.new_dex .form_sub .inputs input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 247, 244);
+    border-radius: 22px;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 454px;
+    top: 4158px;
+    width: 251px;
+    height: 30px;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+   }
+   .sub_block.new_dex .form_sub button {
+    border-radius: 22px;
+    background-color: rgb(128, 183, 179);
+    box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+    margin-top: 20px;
+    width: 232px;
+    height: 44px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+   }
+
+@media (max-width:1200px) {
+    .flex-test {
+        grid-template-columns: 1fr;
+    }
+
+    .sub_block.new_dex .inputs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub_block.new_dex .inputs input {
+        width: 80%; 
+        margin-bottom: 10px; 
+    }
+
+    .sub_block.new_dex button {
+        width: 80%; 
+        margin-top: 20px; 
+    }
+
+    .sub_block.new_dex .form_sub {
+        height: 360px;
+    }
+}
